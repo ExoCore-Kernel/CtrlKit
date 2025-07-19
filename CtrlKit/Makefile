@@ -4,8 +4,8 @@ include $(THEOS)/makefiles/common.mk
 
 FRAMEWORK_NAME = CtrlKit
 
-CtrlKit_FILES = CtrlKit.m
-CtrlKit_PUBLIC_HEADERS = CtrlKit.h
+CtrlKit_FILES = CtrlKit.m IPCObserver.m
+CtrlKit_PUBLIC_HEADERS = CtrlKit.h IPCObserver.h
 CtrlKit_INSTALL_PATH = /Library/Frameworks
 CtrlKit_CFLAGS = -fobjc-arc
 
