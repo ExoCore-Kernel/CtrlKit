@@ -1,4 +1,7 @@
 TARGET := iphone:clang:latest:7.0
+# Default to the local Theos checkout when $THEOS is not set. This
+# allows invoking `make` without having to export the variable first.
+THEOS ?= $(CURDIR)/../theos
 
 include $(THEOS)/makefiles/common.mk
 
