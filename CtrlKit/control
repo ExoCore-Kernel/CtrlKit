@@ -1,0 +1,9 @@
+Package: com.exocore.ctrlkit
+Name: CtrlKit
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome framework of some sort!!
+Maintainer: ExoCore
+Author: ExoCore
+Section: System
+Tag: role::developer
